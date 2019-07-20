@@ -1,0 +1,350 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/* header start */
+.login {
+	position: fixed;
+    top: 0;
+    right: 130px;
+}
+
+.client {
+	font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    background: white;
+    color: #121A2B;
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+    border: 1px solid #c3bfbf;
+    text-transform: uppercase;
+}
+.employee {
+	font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    background: #0078BD;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+    position: relative;
+    left: -4px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+}
+header{
+	background-color:#121B2A;
+	padding: 10px 0; 
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo {
+	width: 20%;
+	float: left;
+}
+.logo a img{
+	width: 100%;
+}
+.menu {
+	width: 75%;
+	float: right;
+	margin-top: 45px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style:none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: .7s;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+}
+.menu ul li:last-child a{
+     padding-right: 0;
+}
+.menu ul li a:hover {
+	color: #0177B7;
+}
+/* header end */
+/* banner start */
+.banner{
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;	
+}
+.banner_content{
+	width: 50%;
+	margin-top: 220px;
+	margin-bottom: 65px;
+}
+.banner_content h1{
+	font-family: sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: white;
+    margin: 0;
+}
+.banner_content h2{
+	font-family: sans-serif;
+    font-size: 39px;
+    text-transform: capitalize;
+    color: #0075B9;
+    margin: 0;
+}
+.banner_content p{
+	font-family: sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 25px;
+    color: #ffffff;
+    margin: 5px 35px 20px 0;
+}
+button {
+	font-size: 18px;
+	color: #5A5A5A;
+	background-color: #ffffff;
+	text-transform: uppercase;
+	border: none;
+    padding: 15px 11px 15px 40px;  
+}
+button img{
+    width: 15%;
+    float: right;
+    padding-left: 17px;
+}
+/* banner end */
+ /* service start */
+.service {
+	background-color: #121B2C;
+    padding: 30px 0 10px;	
+}
+.single {
+	width: 30%;
+    border-right: 1px solid #17212E;
+    padding: 10px 2% 10px 1.2%;
+    float: left;
+}
+.single:last-child{
+    border-right: none;
+}
+.top {
+	overflow: hidden;
+}
+
+.icon {
+	width: 22%;
+	float: left;
+}
+.icon img{
+	width: 100%
+}
+.icon_text{
+	width: 60%;
+	float: left;
+    margin-top: 16px;
+}
+.icon_text h1{
+	font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+.h1{
+    padding: 19px 0 0 10px;
+}
+.icon_text h1 span {
+    color:#0079BC;
+    margin-left: 2px; 
+}
+.icon_text h2{
+	font-family: sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #0079BC;
+    margin: 0;
+}
+.bottom_text {
+}
+.bottom_text p {
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #B4B6BD;
+    line-height: 20px;
+    margin: 15px 26px 27px 11px;
+}
+/* service end */
+
+/* contact start */
+.contact{
+    background-color: #040811;
+}
+/*single 1 start */
+.contact_single{
+    width: 26%;
+    margin: 15px 4.1% 5px 3.2%; 
+    float: left;
+}
+.contact_single h1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+}
+.contact_single h1 span{
+    color: #0175B5;
+}
+.contact_single p{
+    font-family: sans-serif;
+    font-size: 10px;
+    line-height: 19px;
+    color: #8C8E93;
+    margin-left: 3px;
+}
+table{
+   font-family: sans-serif;
+   font-size: 10px;
+   line-height: 10px;
+   color: #8C8E93;  
+}
+/*single 1 end */
+/*single 2 start */
+.customar_test {
+    font-family: sans-serif;
+    background: #0C1019;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: relative;
+}
+.customar_test::after {
+    width: 0;
+    height: 0;
+    content: "";
+    border-top: 20px solid #0C1019;
+    border-right: 50px solid transparent;
+    position: absolute;
+    bottom: -20px;
+    right: 60px;
+    z-index: 999;
+}
+.customar_test h1{}
+.customar_test h1 span{}
+.customar_test p{
+        margin-right: 58px;
+}
+.website {}
+.website h3{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #B4B5BA;
+    margin-left: 3px;
+}
+.website p{
+    font-family: sans-serif;
+    font-size: 10px;
+    line-height: 0px;
+    color: #8C8E93;
+}
+/*single 2 end */
+/*single 3 start */
+.ocean_edge{
+    overflow: hidden;
+}
+.mobile{
+    width: 32%;
+    float: left;
+}
+.mobile img {
+    width: 100%;
+}
+.ocean_text{
+    width: 60%;
+    float: left;
+    margin: 3px 0 0 8px;
+}
+.ocean_text h3 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #F7F7F6;
+    margin: 0;
+}
+.ocean_text h4 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #016AA7;
+    margin: 0;
+    padding-top: 5px;
+}
+.ocean_text img {
+    width: 80%;
+    margin-top: 5px;
+}
+/*single 3 end */
+/* contact start */
+/* footer start */
+footer {
+    background-color: #121B2C;
+}
+.footer_content {
+   width: 62%;
+   float: left;
+   margin-top: 5px;
+}
+
+.footer_bar {
+}
+.footer_bar ul {
+    overflow: hidden;
+}
+.footer_bar ul li {
+    color: #ECECED;
+    float: left;
+    list-style: none;
+}
+.footer_bar ul li a {
+    font-family: sans-serif;
+    font-size: 11px;
+    color: #F1F3F2;
+    text-decoration: none;
+    padding: 0 14px;
+ }   
+.footer_bar ul li:first-child a {
+    padding-left: 3px;
+} 
+.copyright {
+    margin-left: 7.6%;
+}
+.copyright p {
+    font-family: sans-serif;
+    font-size: 11px;
+    color: #E8E8EB;
+}
+.footer_photo {
+    width: 28%;
+    float: left;
+    padding-right: 10%;
+    margin-top: 10px;
+}
+.footer_photo img {
+    width: 100%;
+}
+/* footer end */
